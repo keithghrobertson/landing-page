@@ -38,12 +38,12 @@
                     </div><!--#form-left-->
                     
                     <div id="form-right">
-                    	<form action="demo_form.php" autocomplete="on">
-                        	<input type="text" name="firstName" value="First name">
-                            <input type="text" name="lastName" value="Last name">
-                           	<input type="email" name="email" value="Email Address">
-                            <input type="text" name="phone" value="Phone">
-                            <input type="submit" value="Submit &#187;">
+                    	<form action="process.php" method="POST" autocomplete="on">
+                        	<input type="text" name="firstName" id="firstName" placeholder="First name" class="form-item">
+                            <input type="text" name="lastName" id="lastName" placeholder="Last name" class="form-item">
+                           	<input type="email" id="email" name="email" placeholder="Email Address" class="form-item">
+                            <input type="text" name="phone" id="phone" placeholder="Phone" class="form-item">
+                            <input type="submit" id="submit" value="Submit &#187;" >
                         </form>
                     </div><!--#form-right-->
                     
